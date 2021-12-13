@@ -5,3 +5,5 @@ router.get('/', (req, res) =>{
 })
 
 module.exports = router
+
+const router = require('express').Router()

@@ -2,7 +2,8 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
-app.use('/places', require('./controllers/places'))
+// app.use('/places', require('./controller/places.js'))
+// app.use('/places', require(router))
 
 app.get('/', (req, res) =>{
     res.send('<h1 style="color:red;" >Hello World</h1>')
