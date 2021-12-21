@@ -14,6 +14,7 @@ function Index(data){
         <Def>
             <main>
                 <h1>PLACES INDEX PAGE</h1>
+                <a href="/"><button className='btn-primary'>Home</button></a>
                 {placesFormatted}
             </main>
         </Def>
