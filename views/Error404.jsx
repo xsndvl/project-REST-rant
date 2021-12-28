@@ -9,7 +9,6 @@ function Error404(){
                 <p>Oops, sorry, we can't find this page!</p>
                 <div className='error404'>
                     <img src="/images/reaction.jpg" alt="Oops Reaction"></img>
-                    <a href="/"><button className='btn-primary'>Home</button></a>
                 </div>
                 
             </main>
