@@ -27,9 +27,9 @@ function New_form(){
                         <label htmlFor="cuisines">Place Cuisines</label>
                         <input className="form-control" name="cuisines" id="cuisines" required/>
                     </div>
-                    <div className="form-group">
+                    <div className="form-group col-sm-4">
                         <label for="founded">Founded Year</label>
-                        <input className='form-control' id="founded" name="founded"/>
+                        <input type="number" className='form-control' id="founded" name="founded" value={new Date().getFullYear()}/>
                     </div>
                     <input className="btn btn-primary" type="submit" value="Add Place"/>
                 </form>

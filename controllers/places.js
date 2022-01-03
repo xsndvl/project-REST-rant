@@ -14,7 +14,7 @@ router.get('/', (req, res) =>{
 })
 
 router.get("/new",(req, res) =>{
-    res.send("places/new")
+    res.render("places/new")
 })
 
 router.post("/", (req, res)=>{
