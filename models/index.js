@@ -7,3 +7,4 @@ mongoose.connect(process.env.MONGO_URL, {
 })
 
 module.exports.Place = require("./places")
+module.exports.Comment = require("./comment")
