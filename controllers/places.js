@@ -45,7 +45,6 @@ router.get("/:id", (req, res)=>{
     db.Place.findById(req.params.id)
     .populate("comments")
     .then(place => {
-        console.log(place.comments)
         res.render("places/show", {place})
     })
     .catch(err => {
@@ -65,7 +64,6 @@ router.put('/:id', (req, res) => {
 
 //Comment
 router.post('/:id/comment', (req, res) => {
-    console.log(req.body)
     db.Place.findById(req.params.id)
     .then(place => {
         db.Comment.create(req.body)
